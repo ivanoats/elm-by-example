@@ -313,8 +313,9 @@ the program output [here](HelloWorld4.html).
 
 
       import Markdown
+      import Graphics.Element
 
-
+      main : Graphics.Element.Element
       main = Markdown.toElement \"\"\"
 
       # Hello World
